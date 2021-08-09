@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD102DD225682CA100C77D8E /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD102DD125682CA100C77D8E /* CustomLabel.swift */; };
 		DD641A6925670D2E0021958D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD641A6825670D2E0021958D /* AppDelegate.swift */; };
 		DD641A6B25670D2E0021958D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD641A6A25670D2E0021958D /* SceneDelegate.swift */; };
-		DD641A6D25670D2E0021958D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD641A6C25670D2E0021958D /* ViewController.swift */; };
-		DD641A7025670D2E0021958D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD641A6E25670D2E0021958D /* Main.storyboard */; };
 		DD641A7225670D300021958D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD641A7125670D300021958D /* Assets.xcassets */; };
-		DD641A7525670D300021958D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD641A7325670D300021958D /* LaunchScreen.storyboard */; };
 		DD641A8025670D310021958D /* AddressBookAndSettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD641A7F25670D310021958D /* AddressBookAndSettingsTests.swift */; };
 		DD641A8B25670D310021958D /* AddressBookAndSettingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD641A8A25670D310021958D /* AddressBookAndSettingsUITests.swift */; };
+		DD641AA525670E460021958D /* AddressBookScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD641AA425670E460021958D /* AddressBookScreen.xib */; };
+		DD641AAA25670E660021958D /* AddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD641AA925670E660021958D /* AddressBookViewController.swift */; };
+		DD641AAF256711770021958D /* AddressBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD641AAE256711770021958D /* AddressBook.swift */; };
+		DD641ABD256712E30021958D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD641ABB256712E30021958D /* CustomTableViewCell.swift */; };
+		DD641ABE256712E30021958D /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD641ABC256712E30021958D /* CustomTableViewCell.xib */; };
+		DD641AC92567E8130021958D /* SRCopyableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD641AC82567E8130021958D /* SRCopyableLabel.swift */; };
+		DD641ACE2567F6A00021958D /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD641ACD2567F6A00021958D /* Settings.xib */; };
+		DD641AD32567F6C00021958D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD641AD22567F6C00021958D /* SettingsViewController.swift */; };
+		DD641AE4256803820021958D /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD641AE3256803820021958D /* ScanViewController.swift */; };
+		DD641AE92568051B0021958D /* CameraScan.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD641AE82568051B0021958D /* CameraScan.xib */; };
+		DD9BC97925857E8F00B01E2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9BC97825857E8F00B01E2B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD102DD125682CA100C77D8E /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		DD641A6525670D2E0021958D /* AddressBookAndSettings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBookAndSettings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD641A6825670D2E0021958D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD641A6A25670D2E0021958D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DD641A6C25670D2E0021958D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD641A6F25670D2E0021958D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD641A7125670D300021958D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DD641A7425670D300021958D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD641A7625670D300021958D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD641A7B25670D310021958D /* AddressBookAndSettingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookAndSettingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD641A7F25670D310021958D /* AddressBookAndSettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookAndSettingsTests.swift; sourceTree = "<group>"; };
@@ -49,6 +56,17 @@
 		DD641A8625670D310021958D /* AddressBookAndSettingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookAndSettingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD641A8A25670D310021958D /* AddressBookAndSettingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookAndSettingsUITests.swift; sourceTree = "<group>"; };
 		DD641A8C25670D310021958D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD641AA425670E460021958D /* AddressBookScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressBookScreen.xib; sourceTree = "<group>"; };
+		DD641AA925670E660021958D /* AddressBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookViewController.swift; sourceTree = "<group>"; };
+		DD641AAE256711770021958D /* AddressBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBook.swift; sourceTree = "<group>"; };
+		DD641ABB256712E30021958D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		DD641ABC256712E30021958D /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		DD641AC82567E8130021958D /* SRCopyableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRCopyableLabel.swift; sourceTree = "<group>"; };
+		DD641ACD2567F6A00021958D /* Settings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Settings.xib; sourceTree = "<group>"; };
+		DD641AD22567F6C00021958D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DD641AE3256803820021958D /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		DD641AE82568051B0021958D /* CameraScan.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraScan.xib; sourceTree = "<group>"; };
+		DD9BC97825857E8F00B01E2B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +119,20 @@
 			children = (
 				DD641A6825670D2E0021958D /* AppDelegate.swift */,
 				DD641A6A25670D2E0021958D /* SceneDelegate.swift */,
-				DD641A6C25670D2E0021958D /* ViewController.swift */,
-				DD641A6E25670D2E0021958D /* Main.storyboard */,
+				DD641AA925670E660021958D /* AddressBookViewController.swift */,
+				DD641AAE256711770021958D /* AddressBook.swift */,
+				DD641ABB256712E30021958D /* CustomTableViewCell.swift */,
+				DD641AC82567E8130021958D /* SRCopyableLabel.swift */,
+				DD641AD22567F6C00021958D /* SettingsViewController.swift */,
+				DD641AE3256803820021958D /* ScanViewController.swift */,
+				DD641ABC256712E30021958D /* CustomTableViewCell.xib */,
+				DD641AA425670E460021958D /* AddressBookScreen.xib */,
+				DD641ACD2567F6A00021958D /* Settings.xib */,
+				DD641AE82568051B0021958D /* CameraScan.xib */,
 				DD641A7125670D300021958D /* Assets.xcassets */,
-				DD641A7325670D300021958D /* LaunchScreen.storyboard */,
 				DD641A7625670D300021958D /* Info.plist */,
+				DD102DD125682CA100C77D8E /* CustomLabel.swift */,
+				DD9BC97825857E8F00B01E2B /* LaunchScreen.storyboard */,
 			);
 			path = AddressBookAndSettings;
 			sourceTree = "<group>";
@@ -231,9 +258,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD641A7525670D300021958D /* LaunchScreen.storyboard in Resources */,
+				DD641AE92568051B0021958D /* CameraScan.xib in Resources */,
+				DD641AA525670E460021958D /* AddressBookScreen.xib in Resources */,
+				DD641ABE256712E30021958D /* CustomTableViewCell.xib in Resources */,
+				DD9BC97925857E8F00B01E2B /* LaunchScreen.storyboard in Resources */,
+				DD641ACE2567F6A00021958D /* Settings.xib in Resources */,
 				DD641A7225670D300021958D /* Assets.xcassets in Resources */,
-				DD641A7025670D2E0021958D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD641A6D25670D2E0021958D /* ViewController.swift in Sources */,
+				DD641AAA25670E660021958D /* AddressBookViewController.swift in Sources */,
+				DD102DD225682CA100C77D8E /* CustomLabel.swift in Sources */,
+				DD641ABD256712E30021958D /* CustomTableViewCell.swift in Sources */,
+				DD641AD32567F6C00021958D /* SettingsViewController.swift in Sources */,
+				DD641AC92567E8130021958D /* SRCopyableLabel.swift in Sources */,
+				DD641AAF256711770021958D /* AddressBook.swift in Sources */,
 				DD641A6925670D2E0021958D /* AppDelegate.swift in Sources */,
 				DD641A6B25670D2E0021958D /* SceneDelegate.swift in Sources */,
+				DD641AE4256803820021958D /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +330,6 @@
 			targetProxy = DD641A8725670D310021958D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DD641A6E25670D2E0021958D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD641A6F25670D2E0021958D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DD641A7325670D300021958D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD641A7425670D300021958D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DD641A8D25670D310021958D /* Debug */ = {
@@ -437,8 +454,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9H8PX3MMHC;
+				DEVELOPMENT_TEAM = XB72663YGR;
 				INFOPLIST_FILE = AddressBookAndSettings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,8 +474,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9H8PX3MMHC;
+				DEVELOPMENT_TEAM = XB72663YGR;
 				INFOPLIST_FILE = AddressBookAndSettings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

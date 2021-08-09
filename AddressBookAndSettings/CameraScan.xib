@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScanViewController" customModule="AddressBookAndSettings" customModuleProvider="target">
+            <connections>
+                <outlet property="content" destination="h98-MG-IAN" id="ssZ-I0-CXa"/>
+                <outlet property="contentLabel" destination="7KW-gq-Tba" id="Fad-V7-e12"/>
+                <outlet property="view" destination="jVC-dI-QXh" id="zah-eb-kyT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="jVC-dI-QXh">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="206"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Content QR  " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7KW-gq-Tba">
+                    <rect key="frame" x="223" y="93" width="102" height="20.5"/>
+                    <color key="backgroundColor" red="0.31372549020000001" green="0.69019607839999997" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="102" id="8Un-K8-l5A"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h98-MG-IAN">
+                    <rect key="frame" x="325" y="121.5" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="JNZ-Od-YyB"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="JNZ-Od-YyB" firstAttribute="trailing" secondItem="h98-MG-IAN" secondAttribute="trailing" constant="5" id="9os-XN-TVA"/>
+                <constraint firstItem="h98-MG-IAN" firstAttribute="top" secondItem="7KW-gq-Tba" secondAttribute="bottom" constant="8" symbolic="YES" id="JQY-sg-D79"/>
+                <constraint firstAttribute="trailing" secondItem="7KW-gq-Tba" secondAttribute="trailing" constant="5" id="Q1v-Fw-gu0"/>
+                <constraint firstItem="7KW-gq-Tba" firstAttribute="top" secondItem="JNZ-Od-YyB" secondAttribute="top" constant="49" id="Zdu-mr-Rb1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="66.666666666666671" y="15.401785714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
